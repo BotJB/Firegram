@@ -8,7 +8,7 @@ useEffect(() => {
   .onSnapshot((snap)=>{
       let documents=[]
       snap.forEach((doc)=>{
-          documents.push({...doc.data,id:doc.id})
+          documents.push({...doc.data(), id: doc.id});
       })
       setDocs(documents)
       return ()=> unsub();

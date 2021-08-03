@@ -10,7 +10,7 @@ const ImageDisp = () => {
                 
      return(
                     <div className="img-wrap" key={doc.id}>
-<img src={doc.url} alt="" />
+<img src={doc.url} alt="Upload your image here" />
                 </div>
      )
             })}

@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <Title/>
-<useStorage/>
       <UploadForm />
       <ImageDisp/>
     </div>
